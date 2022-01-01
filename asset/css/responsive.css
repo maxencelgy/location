@@ -1,0 +1,118 @@
+@media screen and (max-width: 1260px) {
+    .searchbar {
+        display: flex;
+        flex-direction: column;
+        padding: .3rem;
+        width: 80%;
+    }
+    .flexslider .slides {
+        zoom: 2;
+    }
+    .space {
+        margin-right: 0;
+
+    }
+    .searchbar form {
+    padding: .3rem;
+    }
+    #end {
+        margin-right: 0;
+    }
+
+    footer img {
+        width: 20%;
+        margin-right: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 840px) {
+
+    .searchbar {
+        width: 98%;
+       top: 60%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    .searchbar form input{
+        padding: .6rem;
+        margin-right: 0;
+        border: none;
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+
+    .searchbar form select {
+        padding: .5rem;
+        margin-right: 0;
+        border-radius: .3rem;
+        border: none;
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+
+    footer .agence {
+       flex-direction: column;
+    }
+    footer img {
+        margin-bottom: 1rem;
+        margin-right: 0;
+        width: 25%;
+    }
+    footer .para {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .flexslider .slides1 img{
+      width: 150%;
+
+    }
+
+    .avisBox .left {
+        width: 50%;
+    }
+
+    .avisBox .right h2 {
+        display: none;
+    }
+    .avisBox .right p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #listVec {
+        padding: 0;
+    }
+
+    .avisBox {
+        flex-direction: column;
+    }
+    .avisBox .left {
+        width: 100%;
+    }
+    .searchbar {
+        top: 50%;
+    }
+}
+@media screen and (max-width: 500px){
+    .searchbar {
+        top: 50%;
+    }
+    .title h1 {
+        font-size: 2rem;}
+    .title p {
+        font-size: .8rem;}
+    .slides1 {
+        width:380%;
+    }
+
+}
